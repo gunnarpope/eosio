@@ -2,7 +2,7 @@
 # Usage:
 # $ eos-getinfo
 
-source bp-endpoints.sh
+source ${HOME}/repos/eosio/scripts/bp-endpoints.sh
 
 # install aliases here to
 
