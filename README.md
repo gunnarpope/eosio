@@ -1,11 +1,31 @@
-# eosio
-Publishing my development notes as I learn to become an EOS.IO blockchain developer
+# An EOS.IO Developer's Notes
+Publishing my development notes as I learn to code EOS.IO blockchain contracts.
+
+author: gunnar pope
+
+Use a markdown viewer to read the .md files. This is a great way to write and publish code for public viewing.
+
+Special thanks to Jarib, Jack, and Scott from Horuspay for sharing their knowledge and expertise in the EOS contract development. You guys rock!
+
+## EOS.IO Smart Contract Notes
+These can be found in the `eosio/smart_contracts/smart_contracts_tutorial.md` file
+
 
 ## EOS.IO Build notes
 After cloning the eos.io code from github, run the build scripts:
+
+
 ```
 cd eos
 ./eosio_build.sh
+```
+
+Sometimes you need to build the .wasm files for all the smart contracts.
+
+
+```
+$ cd ~/eos/build/contracts
+~/eos/build/contracts $ make
 ```
 
 
