@@ -7,6 +7,10 @@ Use a markdown viewer to read the .md files. This is a great way to write and pu
 
 Special thanks to Jarib, Jack, and Scott from Horuspay for sharing their knowledge and expertise in the EOS contract development. You guys rock!
 
+## Multi-Index Example
+See `contracts/addressbook` for an updated version of the eosio multi-index contract example.
+
+ 
 ## EOS.IO Smart Contract Notes
 These can be found in the `eosio/smart_contracts/smart_contracts_tutorial.md` file
 
